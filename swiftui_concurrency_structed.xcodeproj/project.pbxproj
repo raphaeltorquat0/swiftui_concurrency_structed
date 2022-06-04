@@ -7,61 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FDB9A3C284C037400A29003 /* swiftui_concurrency_structedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A3B284C037400A29003 /* swiftui_concurrency_structedApp.swift */; };
+		3FDB9A3C284C037400A29003 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A3B284C037400A29003 /* AppMain.swift */; };
 		3FDB9A3E284C037400A29003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A3D284C037400A29003 /* ContentView.swift */; };
 		3FDB9A40284C037600A29003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB9A3F284C037600A29003 /* Assets.xcassets */; };
 		3FDB9A43284C037600A29003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB9A42284C037600A29003 /* Preview Assets.xcassets */; };
-		3FDB9A4D284C037600A29003 /* swiftui_concurrency_structedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A4C284C037600A29003 /* swiftui_concurrency_structedTests.swift */; };
-		3FDB9A57284C037600A29003 /* swiftui_concurrency_structedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A56284C037600A29003 /* swiftui_concurrency_structedUITests.swift */; };
-		3FDB9A59284C037600A29003 /* swiftui_concurrency_structedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A58284C037600A29003 /* swiftui_concurrency_structedUITestsLaunchTests.swift */; };
+		3FDB9A68284C03E600A29003 /* MarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A67284C03E600A29003 /* MarsModel.swift */; };
+		3FDB9A6A284C077E00A29003 /* MarsRoverAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A69284C077E00A29003 /* MarsRoverAPI.swift */; };
+		3FDB9A6C284C0AF800A29003 /* LatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A6B284C0AF800A29003 /* LatestView.swift */; };
+		3FDB9A6E284C0B4200A29003 /* RoversListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A6D284C0B4200A29003 /* RoversListView.swift */; };
+		3FDB9A70284C0B9600A29003 /* MarsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A6F284C0B9600A29003 /* MarsProgressView.swift */; };
+		3FDB9A72284C0F8700A29003 /* MarsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A71284C0F8700A29003 /* MarsImageView.swift */; };
+		3FDB9A74284C11D600A29003 /* MarsImageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A73284C11D600A29003 /* MarsImageInfoView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3FDB9A49284C037600A29003 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FDB9A30284C037400A29003 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FDB9A37284C037400A29003;
-			remoteInfo = swiftui_concurrency_structed;
-		};
-		3FDB9A53284C037600A29003 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FDB9A30284C037400A29003 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FDB9A37284C037400A29003;
-			remoteInfo = swiftui_concurrency_structed;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3FDB9A38284C037400A29003 /* swiftui_concurrency_structed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_concurrency_structed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FDB9A3B284C037400A29003 /* swiftui_concurrency_structedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_concurrency_structedApp.swift; sourceTree = "<group>"; };
+		3FDB9A3B284C037400A29003 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		3FDB9A3D284C037400A29003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FDB9A3F284C037600A29003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDB9A42284C037600A29003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3FDB9A48284C037600A29003 /* swiftui_concurrency_structedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftui_concurrency_structedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FDB9A4C284C037600A29003 /* swiftui_concurrency_structedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_concurrency_structedTests.swift; sourceTree = "<group>"; };
-		3FDB9A52284C037600A29003 /* swiftui_concurrency_structedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftui_concurrency_structedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FDB9A56284C037600A29003 /* swiftui_concurrency_structedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_concurrency_structedUITests.swift; sourceTree = "<group>"; };
-		3FDB9A58284C037600A29003 /* swiftui_concurrency_structedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_concurrency_structedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FDB9A67284C03E600A29003 /* MarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsModel.swift; sourceTree = "<group>"; };
+		3FDB9A69284C077E00A29003 /* MarsRoverAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverAPI.swift; sourceTree = "<group>"; };
+		3FDB9A6B284C0AF800A29003 /* LatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestView.swift; sourceTree = "<group>"; };
+		3FDB9A6D284C0B4200A29003 /* RoversListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversListView.swift; sourceTree = "<group>"; };
+		3FDB9A6F284C0B9600A29003 /* MarsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsProgressView.swift; sourceTree = "<group>"; };
+		3FDB9A71284C0F8700A29003 /* MarsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImageView.swift; sourceTree = "<group>"; };
+		3FDB9A73284C11D600A29003 /* MarsImageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImageInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3FDB9A35284C037400A29003 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FDB9A45284C037600A29003 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FDB9A4F284C037600A29003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				3FDB9A3A284C037400A29003 /* swiftui_concurrency_structed */,
-				3FDB9A4B284C037600A29003 /* swiftui_concurrency_structedTests */,
-				3FDB9A55284C037600A29003 /* swiftui_concurrency_structedUITests */,
 				3FDB9A39284C037400A29003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				3FDB9A38284C037400A29003 /* swiftui_concurrency_structed.app */,
-				3FDB9A48284C037600A29003 /* swiftui_concurrency_structedTests.xctest */,
-				3FDB9A52284C037600A29003 /* swiftui_concurrency_structedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +65,9 @@
 		3FDB9A3A284C037400A29003 /* swiftui_concurrency_structed */ = {
 			isa = PBXGroup;
 			children = (
-				3FDB9A3B284C037400A29003 /* swiftui_concurrency_structedApp.swift */,
-				3FDB9A3D284C037400A29003 /* ContentView.swift */,
+				3FDB9A66284C03D300A29003 /* Models */,
+				3FDB9A65284C03CB00A29003 /* Views */,
+				3FDB9A3B284C037400A29003 /* AppMain.swift */,
 				3FDB9A3F284C037600A29003 /* Assets.xcassets */,
 				3FDB9A41284C037600A29003 /* Preview Content */,
 			);
@@ -110,21 +82,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3FDB9A4B284C037600A29003 /* swiftui_concurrency_structedTests */ = {
+		3FDB9A65284C03CB00A29003 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3FDB9A4C284C037600A29003 /* swiftui_concurrency_structedTests.swift */,
+				3FDB9A3D284C037400A29003 /* ContentView.swift */,
+				3FDB9A6B284C0AF800A29003 /* LatestView.swift */,
+				3FDB9A6D284C0B4200A29003 /* RoversListView.swift */,
+				3FDB9A6F284C0B9600A29003 /* MarsProgressView.swift */,
+				3FDB9A71284C0F8700A29003 /* MarsImageView.swift */,
+				3FDB9A73284C11D600A29003 /* MarsImageInfoView.swift */,
 			);
-			path = swiftui_concurrency_structedTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		3FDB9A55284C037600A29003 /* swiftui_concurrency_structedUITests */ = {
+		3FDB9A66284C03D300A29003 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3FDB9A56284C037600A29003 /* swiftui_concurrency_structedUITests.swift */,
-				3FDB9A58284C037600A29003 /* swiftui_concurrency_structedUITestsLaunchTests.swift */,
+				3FDB9A67284C03E600A29003 /* MarsModel.swift */,
+				3FDB9A69284C077E00A29003 /* MarsRoverAPI.swift */,
 			);
-			path = swiftui_concurrency_structedUITests;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +124,6 @@
 			productReference = 3FDB9A38284C037400A29003 /* swiftui_concurrency_structed.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3FDB9A47284C037600A29003 /* swiftui_concurrency_structedTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FDB9A5F284C037600A29003 /* Build configuration list for PBXNativeTarget "swiftui_concurrency_structedTests" */;
-			buildPhases = (
-				3FDB9A44284C037600A29003 /* Sources */,
-				3FDB9A45284C037600A29003 /* Frameworks */,
-				3FDB9A46284C037600A29003 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FDB9A4A284C037600A29003 /* PBXTargetDependency */,
-			);
-			name = swiftui_concurrency_structedTests;
-			productName = swiftui_concurrency_structedTests;
-			productReference = 3FDB9A48284C037600A29003 /* swiftui_concurrency_structedTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3FDB9A51284C037600A29003 /* swiftui_concurrency_structedUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FDB9A62284C037600A29003 /* Build configuration list for PBXNativeTarget "swiftui_concurrency_structedUITests" */;
-			buildPhases = (
-				3FDB9A4E284C037600A29003 /* Sources */,
-				3FDB9A4F284C037600A29003 /* Frameworks */,
-				3FDB9A50284C037600A29003 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FDB9A54284C037600A29003 /* PBXTargetDependency */,
-			);
-			name = swiftui_concurrency_structedUITests;
-			productName = swiftui_concurrency_structedUITests;
-			productReference = 3FDB9A52284C037600A29003 /* swiftui_concurrency_structedUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +136,6 @@
 				TargetAttributes = {
 					3FDB9A37284C037400A29003 = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					3FDB9A47284C037600A29003 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 3FDB9A37284C037400A29003;
-					};
-					3FDB9A51284C037600A29003 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 3FDB9A37284C037400A29003;
 					};
 				};
 			};
@@ -220,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				3FDB9A37284C037400A29003 /* swiftui_concurrency_structed */,
-				3FDB9A47284C037600A29003 /* swiftui_concurrency_structedTests */,
-				3FDB9A51284C037600A29003 /* swiftui_concurrency_structedUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FDB9A46284C037600A29003 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FDB9A50284C037600A29003 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,42 +174,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDB9A74284C11D600A29003 /* MarsImageInfoView.swift in Sources */,
+				3FDB9A6A284C077E00A29003 /* MarsRoverAPI.swift in Sources */,
+				3FDB9A6E284C0B4200A29003 /* RoversListView.swift in Sources */,
 				3FDB9A3E284C037400A29003 /* ContentView.swift in Sources */,
-				3FDB9A3C284C037400A29003 /* swiftui_concurrency_structedApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FDB9A44284C037600A29003 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FDB9A4D284C037600A29003 /* swiftui_concurrency_structedTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FDB9A4E284C037600A29003 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FDB9A59284C037600A29003 /* swiftui_concurrency_structedUITestsLaunchTests.swift in Sources */,
-				3FDB9A57284C037600A29003 /* swiftui_concurrency_structedUITests.swift in Sources */,
+				3FDB9A70284C0B9600A29003 /* MarsProgressView.swift in Sources */,
+				3FDB9A68284C03E600A29003 /* MarsModel.swift in Sources */,
+				3FDB9A3C284C037400A29003 /* AppMain.swift in Sources */,
+				3FDB9A6C284C0AF800A29003 /* LatestView.swift in Sources */,
+				3FDB9A72284C0F8700A29003 /* MarsImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3FDB9A4A284C037600A29003 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FDB9A37284C037400A29003 /* swiftui_concurrency_structed */;
-			targetProxy = 3FDB9A49284C037600A29003 /* PBXContainerItemProxy */;
-		};
-		3FDB9A54284C037600A29003 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FDB9A37284C037400A29003 /* swiftui_concurrency_structed */;
-			targetProxy = 3FDB9A53284C037600A29003 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3FDB9A5A284C037600A29003 /* Debug */ = {
@@ -467,82 +361,6 @@
 			};
 			name = Release;
 		};
-		3FDB9A60284C037600A29003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EUPL5H953B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "studiostorquato.swiftui-concurrency-structedTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui_concurrency_structed.app/swiftui_concurrency_structed";
-			};
-			name = Debug;
-		};
-		3FDB9A61284C037600A29003 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EUPL5H953B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "studiostorquato.swiftui-concurrency-structedTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui_concurrency_structed.app/swiftui_concurrency_structed";
-			};
-			name = Release;
-		};
-		3FDB9A63284C037600A29003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EUPL5H953B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "studiostorquato.swiftui-concurrency-structedUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = swiftui_concurrency_structed;
-			};
-			name = Debug;
-		};
-		3FDB9A64284C037600A29003 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EUPL5H953B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "studiostorquato.swiftui-concurrency-structedUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = swiftui_concurrency_structed;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,24 +378,6 @@
 			buildConfigurations = (
 				3FDB9A5D284C037600A29003 /* Debug */,
 				3FDB9A5E284C037600A29003 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FDB9A5F284C037600A29003 /* Build configuration list for PBXNativeTarget "swiftui_concurrency_structedTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FDB9A60284C037600A29003 /* Debug */,
-				3FDB9A61284C037600A29003 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FDB9A62284C037600A29003 /* Build configuration list for PBXNativeTarget "swiftui_concurrency_structedUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FDB9A63284C037600A29003 /* Debug */,
-				3FDB9A64284C037600A29003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
