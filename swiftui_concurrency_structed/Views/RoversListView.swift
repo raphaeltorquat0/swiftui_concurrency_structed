@@ -1,12 +1,36 @@
 import SwiftUI
 
 struct RoversListView: View {
+    let marsData = MarsData()
+    @State var manifests: [PhotoManifest] = []
+    
     var body: some View {
         NavigationView {
             ZStack {
-                MarsProgressView()
+                List(manifests, id: \.name) { manifest in
+                    NavigationLink {
+                        RoverManifestView(manifest: manifest)
+                    } label: {
+                        HStack {
+                            Text("\(manifest.name) (\(manifest.status))")
+                            Spacer()
+                            Text("\(manifest.totalPhotos) \(Image(systemName: "photo"))")
+                        }
+                    }
+                }
+                if manifests.isEmpty {
+                    MarsProgressView()
+                }
             }
             .navigationTitle("Mars Rovers")
+        }
+        .task {
+            manifests = []
+            do {
+                manifests = try await marsData.fetchPhotoManifest()
+            } catch {
+                log.error("Error fetching rover manifests:\(String(describing: error))")
+            }
         }
     }
 }

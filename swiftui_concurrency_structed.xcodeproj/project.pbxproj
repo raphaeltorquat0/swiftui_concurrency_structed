@@ -18,6 +18,9 @@
 		3FDB9A70284C0B9600A29003 /* MarsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A6F284C0B9600A29003 /* MarsProgressView.swift */; };
 		3FDB9A72284C0F8700A29003 /* MarsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A71284C0F8700A29003 /* MarsImageView.swift */; };
 		3FDB9A74284C11D600A29003 /* MarsImageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A73284C11D600A29003 /* MarsImageInfoView.swift */; };
+		3FDB9A76284C1B5A00A29003 /* MarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A75284C1B5A00A29003 /* MarsData.swift */; };
+		3FDB9A78284D65CF00A29003 /* RoverManifestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A77284D65CF00A29003 /* RoverManifestView.swift */; };
+		3FDB9A7A284D66F700A29003 /* RoverPhotosBySolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB9A79284D66F700A29003 /* RoverPhotosBySolListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,10 @@
 		3FDB9A6F284C0B9600A29003 /* MarsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsProgressView.swift; sourceTree = "<group>"; };
 		3FDB9A71284C0F8700A29003 /* MarsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImageView.swift; sourceTree = "<group>"; };
 		3FDB9A73284C11D600A29003 /* MarsImageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImageInfoView.swift; sourceTree = "<group>"; };
+		3FDB9A75284C1B5A00A29003 /* MarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsData.swift; sourceTree = "<group>"; };
+		3FDB9A77284D65CF00A29003 /* RoverManifestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverManifestView.swift; sourceTree = "<group>"; };
+		3FDB9A79284D66F700A29003 /* RoverPhotosBySolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverPhotosBySolListView.swift; sourceTree = "<group>"; };
+		3FDB9A7D284D68FE00A29003 /* swiftui-concurrency-structed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swiftui-concurrency-structed-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,7 @@
 		3FDB9A3A284C037400A29003 /* swiftui_concurrency_structed */ = {
 			isa = PBXGroup;
 			children = (
+				3FDB9A7D284D68FE00A29003 /* swiftui-concurrency-structed-Info.plist */,
 				3FDB9A66284C03D300A29003 /* Models */,
 				3FDB9A65284C03CB00A29003 /* Views */,
 				3FDB9A3B284C037400A29003 /* AppMain.swift */,
@@ -91,6 +99,8 @@
 				3FDB9A6F284C0B9600A29003 /* MarsProgressView.swift */,
 				3FDB9A71284C0F8700A29003 /* MarsImageView.swift */,
 				3FDB9A73284C11D600A29003 /* MarsImageInfoView.swift */,
+				3FDB9A77284D65CF00A29003 /* RoverManifestView.swift */,
+				3FDB9A79284D66F700A29003 /* RoverPhotosBySolListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +110,7 @@
 			children = (
 				3FDB9A67284C03E600A29003 /* MarsModel.swift */,
 				3FDB9A69284C077E00A29003 /* MarsRoverAPI.swift */,
+				3FDB9A75284C1B5A00A29003 /* MarsData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +189,9 @@
 				3FDB9A6A284C077E00A29003 /* MarsRoverAPI.swift in Sources */,
 				3FDB9A6E284C0B4200A29003 /* RoversListView.swift in Sources */,
 				3FDB9A3E284C037400A29003 /* ContentView.swift in Sources */,
+				3FDB9A7A284D66F700A29003 /* RoverPhotosBySolListView.swift in Sources */,
+				3FDB9A78284D65CF00A29003 /* RoverManifestView.swift in Sources */,
+				3FDB9A76284C1B5A00A29003 /* MarsData.swift in Sources */,
 				3FDB9A70284C0B9600A29003 /* MarsProgressView.swift in Sources */,
 				3FDB9A68284C03E600A29003 /* MarsModel.swift in Sources */,
 				3FDB9A3C284C037400A29003 /* AppMain.swift in Sources */,
@@ -314,6 +328,7 @@
 				DEVELOPMENT_TEAM = EUPL5H953B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-concurrency-structed-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,6 +358,7 @@
 				DEVELOPMENT_TEAM = EUPL5H953B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-concurrency-structed-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
